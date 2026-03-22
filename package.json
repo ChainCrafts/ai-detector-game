@@ -1,0 +1,16 @@
+{
+  "name": "ai-lie-detector-v2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Lie Detector with provenance-first backend, single and duel modes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "publish:dataset": "node scripts/publish-dataset.js",
+    "check:server": "node --check server.js",
+    "check:frontend": "node -e \"const fs=require('fs');const html=fs.readFileSync('index.html','utf8');const m=html.match(/<script>([\\s\\S]*?)<\\/script>/);if(!m) throw new Error('script missing'); new Function(m[1]); console.log('frontend JS syntax OK');\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

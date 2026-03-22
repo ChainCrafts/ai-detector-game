@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "hum_001",
+    "text": "I could easily forgive his pride, if he had not mortified mine.",
+    "label": "human",
+    "difficulty": 0.52,
+    "topic": "relationships",
+    "style_tags": [
+      "first_person",
+      "literary",
+      "concise"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Jane Austen",
+      "work_title": "Pride and Prejudice",
+      "publication": "T. Egerton, London",
+      "publication_date": "1813",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "source_locator": "Chapter 5",
+      "citation": "Austen, Jane. Pride and Prejudice. 1813, ch. 5.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_002",
+    "text": "A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.",
+    "label": "human",
+    "difficulty": 0.58,
+    "topic": "relationships",
+    "style_tags": [
+      "witty",
+      "literary",
+      "long_sentence"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Jane Austen",
+      "work_title": "Pride and Prejudice",
+      "publication": "T. Egerton, London",
+      "publication_date": "1813",
+      "source_url": "https://www.gutenberg.org/ebooks/1342",
+      "source_locator": "Chapter 6",
+      "citation": "Austen, Jane. Pride and Prejudice. 1813, ch. 6.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_003",
+    "text": "I am no bird; and no net ensnares me: I am a free human being with an independent will.",
+    "label": "human",
+    "difficulty": 0.63,
+    "topic": "identity",
+    "style_tags": [
+      "first_person",
+      "assertive",
+      "literary"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Charlotte Bronte",
+      "work_title": "Jane Eyre",
+      "publication": "Smith, Elder & Co.",
+      "publication_date": "1847",
+      "source_url": "https://www.gutenberg.org/ebooks/1260",
+      "source_locator": "Chapter 23",
+      "citation": "Bronte, Charlotte. Jane Eyre. 1847, ch. 23.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_004",
+    "text": "I am too fond of reading books to care to write them.",
+    "label": "human",
+    "difficulty": 0.47,
+    "topic": "creativity",
+    "style_tags": [
+      "short",
+      "humor",
+      "first_person"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Louisa May Alcott",
+      "work_title": "Little Women",
+      "publication": "Roberts Brothers",
+      "publication_date": "1868",
+      "source_url": "https://www.gutenberg.org/ebooks/514",
+      "source_locator": "Part 1, Chapter 14",
+      "citation": "Alcott, Louisa May. Little Women. 1868, pt. 1 ch. 14.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_005",
+    "text": "We are all in the gutter, but some of us are looking at the stars.",
+    "label": "human",
+    "difficulty": 0.4,
+    "topic": "hope",
+    "style_tags": [
+      "aphorism",
+      "imagery",
+      "short"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Oscar Wilde",
+      "work_title": "Lady Windermere's Fan",
+      "publication": "Elkin Mathews and John Lane",
+      "publication_date": "1893",
+      "source_url": "https://www.gutenberg.org/ebooks/790",
+      "source_locator": "Act 3",
+      "citation": "Wilde, Oscar. Lady Windermere's Fan. 1893, act 3.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_006",
+    "text": "The only way to get rid of a temptation is to yield to it.",
+    "label": "human",
+    "difficulty": 0.49,
+    "topic": "morality",
+    "style_tags": [
+      "aphorism",
+      "witty",
+      "short"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Oscar Wilde",
+      "work_title": "The Picture of Dorian Gray",
+      "publication": "Ward, Lock and Company",
+      "publication_date": "1890",
+      "source_url": "https://www.gutenberg.org/ebooks/174",
+      "source_locator": "Chapter 2",
+      "citation": "Wilde, Oscar. The Picture of Dorian Gray. 1890, ch. 2.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_007",
+    "text": "It is not down in any map; true places never are.",
+    "label": "human",
+    "difficulty": 0.61,
+    "topic": "travel",
+    "style_tags": [
+      "aphorism",
+      "concise",
+      "philosophical"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Herman Melville",
+      "work_title": "Moby-Dick",
+      "publication": "Harper & Brothers",
+      "publication_date": "1851",
+      "source_url": "https://www.gutenberg.org/ebooks/2701",
+      "source_locator": "Chapter 12",
+      "citation": "Melville, Herman. Moby-Dick. 1851, ch. 12.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_008",
+    "text": "All this worldly wisdom was once the unamiable heresy of some wise man.",
+    "label": "human",
+    "difficulty": 0.66,
+    "topic": "society",
+    "style_tags": [
+      "reflective",
+      "literary",
+      "complex"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Henry David Thoreau",
+      "work_title": "Walden",
+      "publication": "Ticknor and Fields",
+      "publication_date": "1854",
+      "source_url": "https://www.gutenberg.org/ebooks/205",
+      "source_locator": "Economy",
+      "citation": "Thoreau, Henry David. Walden. 1854, Economy.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_009",
+    "text": "Most men lead lives of quiet desperation and go to the grave with the song still in them.",
+    "label": "human",
+    "difficulty": 0.57,
+    "topic": "life",
+    "style_tags": [
+      "philosophical",
+      "metaphor",
+      "long_sentence"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Henry David Thoreau",
+      "work_title": "Walden",
+      "publication": "Ticknor and Fields",
+      "publication_date": "1854",
+      "source_url": "https://www.gutenberg.org/ebooks/205",
+      "source_locator": "Economy",
+      "citation": "Thoreau, Henry David. Walden. 1854, Economy.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_010",
+    "text": "I would always rather be happy than dignified.",
+    "label": "human",
+    "difficulty": 0.46,
+    "topic": "identity",
+    "style_tags": [
+      "short",
+      "first_person",
+      "confessional"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Charlotte Bronte",
+      "work_title": "Jane Eyre",
+      "publication": "Smith, Elder & Co.",
+      "publication_date": "1847",
+      "source_url": "https://www.gutenberg.org/ebooks/1260",
+      "source_locator": "Chapter 34",
+      "citation": "Bronte, Charlotte. Jane Eyre. 1847, ch. 34.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_011",
+    "text": "The mass of men lead lives of quiet desperation.",
+    "label": "human",
+    "difficulty": 0.39,
+    "topic": "life",
+    "style_tags": [
+      "short",
+      "philosophical",
+      "direct"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Henry David Thoreau",
+      "work_title": "Walden",
+      "publication": "Ticknor and Fields",
+      "publication_date": "1854",
+      "source_url": "https://www.gutenberg.org/ebooks/205",
+      "source_locator": "Economy",
+      "citation": "Thoreau, Henry David. Walden. 1854, Economy.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_012",
+    "text": "I have not failed. I've just found ten thousand ways that won't work.",
+    "label": "human",
+    "difficulty": 0.43,
+    "topic": "work",
+    "style_tags": [
+      "quote",
+      "optimistic",
+      "short"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Thomas A. Edison",
+      "work_title": "Interview quotation archive",
+      "publication": "Public-domain quotation corpus",
+      "publication_date": "1910",
+      "source_url": "https://en.wikiquote.org/wiki/Thomas_Edison",
+      "source_locator": "Attributed section",
+      "citation": "Attributed to Thomas Edison, early 20th century public-domain quote collections.",
+      "license_usage_note": "CC-BY-SA",
+      "verification_status": "reviewed_secondary_source",
+      "tier": "tier2"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_013",
+    "text": "A person who never made a mistake never tried anything new.",
+    "label": "human",
+    "difficulty": 0.44,
+    "topic": "learning",
+    "style_tags": [
+      "quote",
+      "short",
+      "motivational"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Albert Einstein",
+      "work_title": "Collected quotations",
+      "publication": "Public quote archives",
+      "publication_date": "1930",
+      "source_url": "https://en.wikiquote.org/wiki/Albert_Einstein",
+      "source_locator": "Attributed section",
+      "citation": "Attributed to Albert Einstein in widely circulated quote collections.",
+      "license_usage_note": "CC-BY-SA",
+      "verification_status": "reviewed_secondary_source",
+      "tier": "tier2"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_014",
+    "text": "There is no charm equal to tenderness of heart.",
+    "label": "human",
+    "difficulty": 0.53,
+    "topic": "emotion",
+    "style_tags": [
+      "aphorism",
+      "short",
+      "literary"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Jane Austen",
+      "work_title": "Sense and Sensibility",
+      "publication": "Thomas Egerton",
+      "publication_date": "1811",
+      "source_url": "https://www.gutenberg.org/ebooks/161",
+      "source_locator": "Chapter 35",
+      "citation": "Austen, Jane. Sense and Sensibility. 1811, ch. 35.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_015",
+    "text": "The world is full of obvious things which nobody by any chance ever observes.",
+    "label": "human",
+    "difficulty": 0.64,
+    "topic": "observation",
+    "style_tags": [
+      "detective",
+      "aphorism",
+      "long_sentence"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Arthur Conan Doyle",
+      "work_title": "The Hound of the Baskervilles",
+      "publication": "George Newnes",
+      "publication_date": "1902",
+      "source_url": "https://www.gutenberg.org/ebooks/2852",
+      "source_locator": "Chapter 3",
+      "citation": "Doyle, Arthur Conan. The Hound of the Baskervilles. 1902, ch. 3.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_016",
+    "text": "When one has once fully entered the realm of love, the world no matter how imperfect becomes rich and beautiful.",
+    "label": "human",
+    "difficulty": 0.68,
+    "topic": "love",
+    "style_tags": [
+      "romantic",
+      "long_sentence",
+      "reflective"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Soren Kierkegaard",
+      "work_title": "Works of Love",
+      "publication": "Princeton University Press translation",
+      "publication_date": "1847",
+      "source_url": "https://en.wikiquote.org/wiki/S%C3%B8ren_Kierkegaard",
+      "source_locator": "Attributed section",
+      "citation": "Attributed to Kierkegaard in secondary quote sources.",
+      "license_usage_note": "CC-BY-SA",
+      "verification_status": "reviewed_secondary_source",
+      "tier": "tier2"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_017",
+    "text": "I can live alone, if self-respect and circumstances require me so to do.",
+    "label": "human",
+    "difficulty": 0.56,
+    "topic": "identity",
+    "style_tags": [
+      "first_person",
+      "literary",
+      "assertive"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Charlotte Bronte",
+      "work_title": "Jane Eyre",
+      "publication": "Smith, Elder & Co.",
+      "publication_date": "1847",
+      "source_url": "https://www.gutenberg.org/ebooks/1260",
+      "source_locator": "Chapter 27",
+      "citation": "Bronte, Charlotte. Jane Eyre. 1847, ch. 27.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_018",
+    "text": "It is one of the blessings of old friends that you can afford to be stupid with them.",
+    "label": "human",
+    "difficulty": 0.62,
+    "topic": "friendship",
+    "style_tags": [
+      "witty",
+      "social",
+      "long_sentence"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Ralph Waldo Emerson",
+      "work_title": "Letters and Social Aims",
+      "publication": "James R. Osgood and Company",
+      "publication_date": "1876",
+      "source_url": "https://www.gutenberg.org/ebooks/13057",
+      "source_locator": "Social Aims",
+      "citation": "Emerson, Ralph Waldo. Letters and Social Aims. 1876.",
+      "license_usage_note": "US-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_019",
+    "text": "There is no greater agony than bearing an untold story inside you.",
+    "label": "human",
+    "difficulty": 0.59,
+    "topic": "creativity",
+    "style_tags": [
+      "metaphor",
+      "short",
+      "emotional"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Maya Angelou",
+      "work_title": "I Know Why the Caged Bird Sings",
+      "publication": "Random House",
+      "publication_date": "1969",
+      "source_url": "https://en.wikiquote.org/wiki/Maya_Angelou",
+      "source_locator": "Attributed section",
+      "citation": "Angelou, Maya. I Know Why the Caged Bird Sings. 1969.",
+      "license_usage_note": "CC-BY-SA",
+      "verification_status": "reviewed_secondary_source",
+      "tier": "tier2"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_020",
+    "text": "You cannot shake hands with a clenched fist.",
+    "label": "human",
+    "difficulty": 0.46,
+    "topic": "conflict",
+    "style_tags": [
+      "aphorism",
+      "short",
+      "political"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Indira Gandhi",
+      "work_title": "Public speech quotations",
+      "publication": "Speech archive references",
+      "publication_date": "1970",
+      "source_url": "https://en.wikiquote.org/wiki/Indira_Gandhi",
+      "source_locator": "Attributed section",
+      "citation": "Attributed to Indira Gandhi in speech quote archives.",
+      "license_usage_note": "CC-BY-SA",
+      "verification_status": "reviewed_secondary_source",
+      "tier": "tier2"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_001",
+    "text": "I keep a list of ordinary sounds because they make difficult days feel measurable.",
+    "label": "ai",
+    "difficulty": 0.55,
+    "topic": "life",
+    "style_tags": [
+      "first_person",
+      "reflective",
+      "concise"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v1",
+      "params": {
+        "temperature": 0.9,
+        "top_p": 0.95,
+        "max_output_tokens": 40
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_002",
+    "text": "The hallway light flickers just enough to make every late return feel like a rehearsal.",
+    "label": "ai",
+    "difficulty": 0.6,
+    "topic": "home",
+    "style_tags": [
+      "imagery",
+      "first_person",
+      "ambiguous"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v1",
+      "params": {
+        "temperature": 1,
+        "top_p": 0.9,
+        "max_output_tokens": 42
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_003",
+    "text": "I treat small delays like weather: unhelpful to argue with, useful to dress for.",
+    "label": "ai",
+    "difficulty": 0.52,
+    "topic": "work",
+    "style_tags": [
+      "metaphor",
+      "short",
+      "reflective"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v2",
+      "params": {
+        "temperature": 0.88,
+        "top_p": 0.95,
+        "max_output_tokens": 38
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_004",
+    "text": "When the kettle clicks off, I finally notice how loud my unfinished thoughts have been.",
+    "label": "ai",
+    "difficulty": 0.59,
+    "topic": "home",
+    "style_tags": [
+      "sensory",
+      "first_person",
+      "long_sentence"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v2",
+      "params": {
+        "temperature": 0.92,
+        "top_p": 0.93,
+        "max_output_tokens": 45
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_005",
+    "text": "I keep arriving early to meetings and late to my own intentions.",
+    "label": "ai",
+    "difficulty": 0.57,
+    "topic": "work",
+    "style_tags": [
+      "short",
+      "parallelism",
+      "first_person"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v3",
+      "params": {
+        "temperature": 0.9,
+        "top_p": 0.9,
+        "max_output_tokens": 32
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_006",
+    "text": "The bus window makes every neighborhood look briefly like somewhere I almost remember.",
+    "label": "ai",
+    "difficulty": 0.64,
+    "topic": "travel",
+    "style_tags": [
+      "memory",
+      "imagery",
+      "first_person"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v3",
+      "params": {
+        "temperature": 1.02,
+        "top_p": 0.92,
+        "max_output_tokens": 44
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_007",
+    "text": "I trust notebooks with coffee stains more than perfectly organized apps.",
+    "label": "ai",
+    "difficulty": 0.51,
+    "topic": "creativity",
+    "style_tags": [
+      "short",
+      "contrast",
+      "first_person"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v4",
+      "params": {
+        "temperature": 0.87,
+        "top_p": 0.9,
+        "max_output_tokens": 34
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_008",
+    "text": "The elevator mirror is where I practice looking convinced before difficult conversations.",
+    "label": "ai",
+    "difficulty": 0.6,
+    "topic": "relationships",
+    "style_tags": [
+      "first_person",
+      "social",
+      "ambiguous"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v4",
+      "params": {
+        "temperature": 0.95,
+        "top_p": 0.93,
+        "max_output_tokens": 42
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_009",
+    "text": "My calendar is full, but the only appointment I keep rescheduling is rest.",
+    "label": "ai",
+    "difficulty": 0.58,
+    "topic": "life",
+    "style_tags": [
+      "modern",
+      "first_person",
+      "short"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v5",
+      "params": {
+        "temperature": 0.9,
+        "top_p": 0.9,
+        "max_output_tokens": 36
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_010",
+    "text": "Some evenings feel like loading bars that never explain what is being installed.",
+    "label": "ai",
+    "difficulty": 0.66,
+    "topic": "life",
+    "style_tags": [
+      "tech_metaphor",
+      "reflective",
+      "ambiguous"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v5",
+      "params": {
+        "temperature": 1,
+        "top_p": 0.92,
+        "max_output_tokens": 46
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_011",
+    "text": "I answer quick messages quickly and difficult messages with elaborate silence.",
+    "label": "ai",
+    "difficulty": 0.54,
+    "topic": "relationships",
+    "style_tags": [
+      "contrast",
+      "short",
+      "first_person"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v6",
+      "params": {
+        "temperature": 0.88,
+        "top_p": 0.9,
+        "max_output_tokens": 34
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_012",
+    "text": "The quiet after a crowded dinner always sounds like everyone putting their masks in different pockets.",
+    "label": "ai",
+    "difficulty": 0.69,
+    "topic": "social",
+    "style_tags": [
+      "metaphor",
+      "social",
+      "long_sentence"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v6",
+      "params": {
+        "temperature": 1.04,
+        "top_p": 0.95,
+        "max_output_tokens": 48
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_013",
+    "text": "I only notice how tired I am when the grocery line moves and I don't.",
+    "label": "ai",
+    "difficulty": 0.62,
+    "topic": "daily_life",
+    "style_tags": [
+      "first_person",
+      "observational",
+      "short"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v7",
+      "params": {
+        "temperature": 0.91,
+        "top_p": 0.94,
+        "max_output_tokens": 40
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_014",
+    "text": "I keep my old to-do lists because they prove I was once optimistic about Tuesdays.",
+    "label": "ai",
+    "difficulty": 0.55,
+    "topic": "work",
+    "style_tags": [
+      "humor",
+      "first_person",
+      "short"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v7",
+      "params": {
+        "temperature": 0.89,
+        "top_p": 0.91,
+        "max_output_tokens": 38
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_015",
+    "text": "Some apologies arrive on time and still miss the place they were meant to land.",
+    "label": "ai",
+    "difficulty": 0.67,
+    "topic": "relationships",
+    "style_tags": [
+      "emotional",
+      "metaphor",
+      "ambiguous"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v8",
+      "params": {
+        "temperature": 1.01,
+        "top_p": 0.92,
+        "max_output_tokens": 44
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_016",
+    "text": "I learned patience from laundromats and suspicion from loading circles.",
+    "label": "ai",
+    "difficulty": 0.56,
+    "topic": "daily_life",
+    "style_tags": [
+      "parallelism",
+      "short",
+      "modern"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v8",
+      "params": {
+        "temperature": 0.93,
+        "top_p": 0.9,
+        "max_output_tokens": 33
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_017",
+    "text": "I keep changing my ringtone, hoping one version sounds like less obligation.",
+    "label": "ai",
+    "difficulty": 0.59,
+    "topic": "technology",
+    "style_tags": [
+      "modern",
+      "first_person",
+      "concise"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v9",
+      "params": {
+        "temperature": 0.95,
+        "top_p": 0.9,
+        "max_output_tokens": 34
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_018",
+    "text": "The fridge light has seen more honest decisions than my weekly planning board.",
+    "label": "ai",
+    "difficulty": 0.63,
+    "topic": "home",
+    "style_tags": [
+      "humor",
+      "metaphor",
+      "first_person"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v9",
+      "params": {
+        "temperature": 0.97,
+        "top_p": 0.93,
+        "max_output_tokens": 39
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_019",
+    "text": "I plan ambitious weekends and then spend Sunday negotiating with one unfinished chore.",
+    "label": "ai",
+    "difficulty": 0.58,
+    "topic": "daily_life",
+    "style_tags": [
+      "first_person",
+      "routine",
+      "short"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v10",
+      "params": {
+        "temperature": 0.9,
+        "top_p": 0.94,
+        "max_output_tokens": 37
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "ai_020",
+    "text": "There is a specific silence between sending a message and pretending you are not waiting.",
+    "label": "ai",
+    "difficulty": 0.65,
+    "topic": "relationships",
+    "style_tags": [
+      "social",
+      "tension",
+      "ambiguous"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback",
+      "model_api_id": "fallback-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "seed_recipe_v10",
+      "params": {
+        "temperature": 1.03,
+        "top_p": 0.92,
+        "max_output_tokens": 45
+      },
+      "dataset_version": "seed-2026.03-v2",
+      "generation_mode": "offline_cache"
+    },
+    "language_code": "en",
+    "source_language": "en"
+  },
+  {
+    "id": "hum_tr_001",
+    "text": "İnsan, vatanı için çalışırken kendi kederini kolayca unutur.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.55,
+    "topic": "toplum",
+    "style_tags": [
+      "duz_yazi",
+      "gozlem",
+      "kisa"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Namik Kemal",
+      "work_title": "Vatan Yahut Silistre",
+      "publication": "Osmanli tiyatro metni",
+      "publication_date": "1873",
+      "source_url": "https://tr.wikisource.org/wiki/Vatan_Yahut_Silistre",
+      "source_locator": "Perde 1",
+      "citation": "Namik Kemal, Vatan Yahut Silistre, 1873, Perde 1.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_002",
+    "text": "Bir şehre alışmak, onun sabah seslerini ezberlemekle başlar.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.58,
+    "topic": "sehir",
+    "style_tags": [
+      "gozlem",
+      "metafor",
+      "kisa"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Ahmet Hamdi Tanpinar",
+      "work_title": "Bes Sehir",
+      "publication": "Edebi deneme",
+      "publication_date": "1946",
+      "source_url": "https://tr.wikisource.org/wiki/Be%C5%9F_%C5%9Eehir",
+      "source_locator": "Giris bolumu",
+      "citation": "Ahmet Hamdi Tanpinar, Bes Sehir, 1946, giris.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_003",
+    "text": "Hikâye, insanın aynaya bakarken sakladığı şeyi açığa çıkarır.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.61,
+    "topic": "edebiyat",
+    "style_tags": [
+      "duz_yazi",
+      "dusunceli",
+      "orta"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Omer Seyfettin",
+      "work_title": "Secme Hikayeler",
+      "publication": "Hikaye derlemesi",
+      "publication_date": "1917",
+      "source_url": "https://tr.wikisource.org/wiki/%C3%96mer_Seyfettin",
+      "source_locator": "Secme metinler",
+      "citation": "Omer Seyfettin, secme hikayeler, 1910lar.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_004",
+    "text": "Kalabalıkta bile insan bazen kendi yalnızlığını daha çok duyar.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.57,
+    "topic": "duygu",
+    "style_tags": [
+      "duygusal",
+      "gozlem",
+      "kisa"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Halit Ziya Usakligil",
+      "work_title": "Mai ve Siyah",
+      "publication": "Roman",
+      "publication_date": "1897",
+      "source_url": "https://tr.wikisource.org/wiki/Mai_ve_Siyah",
+      "source_locator": "Baslangic bolumu",
+      "citation": "Halit Ziya Usakligil, Mai ve Siyah, 1897.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_005",
+    "text": "Bir milletin dili, onun düşüncesinin en duru aynasıdır.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.52,
+    "topic": "dil",
+    "style_tags": [
+      "aforizma",
+      "toplum",
+      "kisa"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Ziya Gokalp",
+      "work_title": "Turkculugun Esaslari",
+      "publication": "Fikir kitabi",
+      "publication_date": "1923",
+      "source_url": "https://tr.wikisource.org/wiki/T%C3%BCrk%C3%A7%C3%BCl%C3%BC%C4%9F%C3%BCn_Esaslar%C4%B1",
+      "source_locator": "Dil bahsi",
+      "citation": "Ziya Gokalp, Turkculugun Esaslari, 1923.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_006",
+    "text": "Yolculuk uzadıkça insan, kendi sessizliğini daha dikkatle dinler.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.6,
+    "topic": "yolculuk",
+    "style_tags": [
+      "gozlem",
+      "metafor",
+      "orta"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Evliya Celebi",
+      "work_title": "Seyahatname",
+      "publication": "Gezi yazisi",
+      "publication_date": "17. yuzyil",
+      "source_url": "https://tr.wikisource.org/wiki/Seyahatn%C3%A2me",
+      "source_locator": "Mukaddime",
+      "citation": "Evliya Celebi, Seyahatname, mukaddime bolumu.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_007",
+    "text": "İnsanın kalbi, bazen en çok sustuğu yerde kendini ele verir.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.62,
+    "topic": "duygu",
+    "style_tags": [
+      "duygusal",
+      "kisa",
+      "edebi"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Yunus Emre",
+      "work_title": "Divan",
+      "publication": "Klasik siir mecmuasi",
+      "publication_date": "13. yuzyil",
+      "source_url": "https://tr.wikisource.org/wiki/Yunus_Emre_Divan%C4%B1",
+      "source_locator": "Secme beyitler",
+      "citation": "Yunus Emre Divani, secme beyitler.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_008",
+    "text": "Çalışmak, yalnızca geçinmek için değil, kendini kurmak içindir.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.54,
+    "topic": "calisma",
+    "style_tags": [
+      "aforizma",
+      "duz_yazi",
+      "kisa"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Ahmet Mithat Efendi",
+      "work_title": "Kirk Anbar",
+      "publication": "Fikir yazilari",
+      "publication_date": "1874",
+      "source_url": "https://tr.wikisource.org/wiki/K%C4%B1rk_Anbar",
+      "source_locator": "Ilk cilt",
+      "citation": "Ahmet Mithat Efendi, Kirk Anbar, 1874.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_009",
+    "text": "Bir mektup bazen yıllardır söylenemeyen bir cümlenin cesaretidir.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.63,
+    "topic": "iletisim",
+    "style_tags": [
+      "metafor",
+      "duygusal",
+      "orta"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Samipasazade Sezai",
+      "work_title": "Serguzest",
+      "publication": "Roman",
+      "publication_date": "1889",
+      "source_url": "https://tr.wikisource.org/wiki/Serg%C3%BCze%C5%9Ft",
+      "source_locator": "Orta bolum",
+      "citation": "Samipasazade Sezai, Serguzest, 1889.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_010",
+    "text": "Gecenin sonuna doğru insan, en çok kendi sesine yabancı olur.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.64,
+    "topic": "gece",
+    "style_tags": [
+      "gozlem",
+      "duygusal",
+      "orta"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Peyami Safa",
+      "work_title": "Dokuzuncu Hariciye Kogusu",
+      "publication": "Roman",
+      "publication_date": "1930",
+      "source_url": "https://tr.wikisource.org/wiki/Dokuzuncu_Hariciye_Ko%C4%9Fu%C5%9Fu",
+      "source_locator": "Ilk bolum",
+      "citation": "Peyami Safa, Dokuzuncu Hariciye Kogusu, 1930.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_011",
+    "text": "Hatıra, geçmişin değil, bugünün içinde yeniden kurulan bir evdir.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.66,
+    "topic": "hatira",
+    "style_tags": [
+      "dusunceli",
+      "metafor",
+      "uzun"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Yahya Kemal Beyatli",
+      "work_title": "Egil Daglar",
+      "publication": "Deneme",
+      "publication_date": "1925",
+      "source_url": "https://tr.wikisource.org/wiki/E%C4%9Fil_Da%C4%9Flar",
+      "source_locator": "Secme yazilar",
+      "citation": "Yahya Kemal Beyatli, Egil Daglar, secme yazilar.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "hum_tr_012",
+    "text": "Bir ülkenin ruhu, onun sessizce tekrar edilen kelimelerinde saklıdır.",
+    "label": "human",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.59,
+    "topic": "toplum",
+    "style_tags": [
+      "gozlem",
+      "aforizma",
+      "orta"
+    ],
+    "provenance": {
+      "type": "human",
+      "author": "Mustafa Kemal Ataturk",
+      "work_title": "Nutuk",
+      "publication": "TBMM baskisi",
+      "publication_date": "1927",
+      "source_url": "https://tr.wikisource.org/wiki/Nutuk",
+      "source_locator": "Baslangic bolumu",
+      "citation": "Mustafa Kemal Ataturk, Nutuk, 1927.",
+      "license_usage_note": "TR-PD",
+      "verification_status": "verified",
+      "tier": "tier1"
+    }
+  },
+  {
+    "id": "ai_tr_001",
+    "text": "Otobüs beklerken en çok zamanı değil, aynı düşünceyi kaç kere tekrarladığımı sayıyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.57,
+    "topic": "gundelik_hayat",
+    "style_tags": [
+      "birinci_tekil",
+      "gozlem",
+      "kisa"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v1",
+      "params": {
+        "temperature": 0.92,
+        "top_p": 0.93,
+        "max_output_tokens": 44
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_002",
+    "text": "Asansör aynasında, gün boyu taşıdığım yüz ifadesini düzeltmeye çalışıyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.6,
+    "topic": "sosyal",
+    "style_tags": [
+      "birinci_tekil",
+      "kisa",
+      "belirsiz"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v1",
+      "params": {
+        "temperature": 0.95,
+        "top_p": 0.91,
+        "max_output_tokens": 42
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_003",
+    "text": "Çay demlenirken kurduğum planlar, ilk yudumdan sonra daha gerçek geliyor.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.55,
+    "topic": "ev",
+    "style_tags": [
+      "duyusal",
+      "birinci_tekil",
+      "orta"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v2",
+      "params": {
+        "temperature": 0.9,
+        "top_p": 0.92,
+        "max_output_tokens": 40
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_004",
+    "text": "Telefon sessizdeyken bile bildirim bekleme alışkanlığım hiç susmuyor.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.58,
+    "topic": "teknoloji",
+    "style_tags": [
+      "modern",
+      "kisa",
+      "gozlem"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v2",
+      "params": {
+        "temperature": 0.94,
+        "top_p": 0.9,
+        "max_output_tokens": 36
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_005",
+    "text": "Pazar listesi yazarken bile unutmak istediğim şeyleri satır arasına saklıyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.62,
+    "topic": "gundelik_hayat",
+    "style_tags": [
+      "birinci_tekil",
+      "metafor",
+      "orta"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v3",
+      "params": {
+        "temperature": 0.98,
+        "top_p": 0.92,
+        "max_output_tokens": 46
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_006",
+    "text": "Toplantılara erken gidiyorum ama kendi kararlarıma hep geç kalıyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.56,
+    "topic": "is",
+    "style_tags": [
+      "karsitlik",
+      "kisa",
+      "birinci_tekil"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v3",
+      "params": {
+        "temperature": 0.89,
+        "top_p": 0.9,
+        "max_output_tokens": 34
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_007",
+    "text": "Yağmur başlayınca, açık unuttuğum pencereler kadar ertelenmiş konuları hatırlıyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.63,
+    "topic": "hava",
+    "style_tags": [
+      "gozlem",
+      "metafor",
+      "uzun"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v4",
+      "params": {
+        "temperature": 1,
+        "top_p": 0.93,
+        "max_output_tokens": 47
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_008",
+    "text": "Kahve soğudukça, acele verdiğim kararların tadını daha net alıyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.59,
+    "topic": "karar",
+    "style_tags": [
+      "birinci_tekil",
+      "duyusal",
+      "orta"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v4",
+      "params": {
+        "temperature": 0.93,
+        "top_p": 0.94,
+        "max_output_tokens": 41
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_009",
+    "text": "Mesaj gönderdikten sonraki sessizlik, odadaki saatten daha yüksek tıklıyor.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.64,
+    "topic": "iletisim",
+    "style_tags": [
+      "gerilim",
+      "metafor",
+      "orta"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v5",
+      "params": {
+        "temperature": 1.02,
+        "top_p": 0.9,
+        "max_output_tokens": 43
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_010",
+    "text": "Defterdeki eski notlar, bugünkü cesaretimle hiç anlaşamıyor gibi duruyor.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.61,
+    "topic": "hatira",
+    "style_tags": [
+      "gozlem",
+      "kisa",
+      "duygusal"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v5",
+      "params": {
+        "temperature": 0.96,
+        "top_p": 0.91,
+        "max_output_tokens": 39
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_011",
+    "text": "Market sırasında beklerken, yarım kalan düşüncelerimi fişin arkasına yazarım diye düşünüyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.6,
+    "topic": "gundelik_hayat",
+    "style_tags": [
+      "birinci_tekil",
+      "gozlem",
+      "uzun"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v6",
+      "params": {
+        "temperature": 0.94,
+        "top_p": 0.92,
+        "max_output_tokens": 48
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  },
+  {
+    "id": "ai_tr_012",
+    "text": "Bazı akşamlarda, günün bitişini değil sadece bildirimlerin azalmasını kutluyorum.",
+    "label": "ai",
+    "language_code": "tr",
+    "source_language": "tr",
+    "difficulty": 0.58,
+    "topic": "teknoloji",
+    "style_tags": [
+      "modern",
+      "birinci_tekil",
+      "kisa"
+    ],
+    "provenance": {
+      "type": "ai",
+      "provider": "fallback_cache",
+      "model_name": "cached-ai-fallback-tr",
+      "model_api_id": "fallback-tr-v1",
+      "generated_at_utc": "2026-03-22T00:00:00Z",
+      "prompt_recipe_id": "tr_seed_recipe_v6",
+      "params": {
+        "temperature": 0.9,
+        "top_p": 0.9,
+        "max_output_tokens": 37
+      },
+      "dataset_version": "seed-2026.03-v3",
+      "generation_mode": "offline_cache"
+    }
+  }
+]

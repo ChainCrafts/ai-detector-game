@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-03-22T09:50:19.396Z",
+  "source_file": "data/statements.seed.json",
+  "total_records": 64,
+  "ai_records": 32,
+  "human_records": 32,
+  "by_language": {
+    "en": 40,
+    "tr": 24
+  },
+  "ai_by_language": {
+    "en": 20,
+    "tr": 12
+  },
+  "human_by_language": {
+    "en": 20,
+    "tr": 12
+  },
+  "tier1_human": 27,
+  "tier2_human": 5,
+  "dataset_version": "published-2026-03-22"
+}

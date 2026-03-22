@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Lie Detector StatementRecord",
+  "type": "object",
+  "required": ["id", "text", "label", "language_code", "difficulty", "topic", "style_tags", "provenance"],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "text": { "type": "string", "minLength": 6 },
+    "label": { "type": "string", "enum": ["ai", "human"] },
+    "language_code": { "type": "string", "enum": ["en", "tr"] },
+    "source_language": { "type": "string", "enum": ["en", "tr"] },
+    "difficulty": { "type": "number", "minimum": 0, "maximum": 1 },
+    "topic": { "type": "string", "minLength": 2 },
+    "style_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "enum": ["ai", "human"] },
+        "provider": { "type": "string" },
+        "model_name": { "type": "string" },
+        "model_api_id": { "type": "string" },
+        "generated_at_utc": { "type": "string" },
+        "prompt_recipe_id": { "type": "string" },
+        "params": { "type": "object" },
+        "dataset_version": { "type": "string" },
+        "author": { "type": "string" },
+        "work_title": { "type": "string" },
+        "publication": { "type": "string" },
+        "publication_date": { "type": "string" },
+        "source_url": { "type": "string" },
+        "source_locator": { "type": "string" },
+        "citation": { "type": "string" },
+        "license_usage_note": { "type": "string" },
+        "verification_status": { "type": "string" },
+        "tier": { "type": "string", "enum": ["tier1", "tier2"] }
+      }
+    }
+  }
+}
