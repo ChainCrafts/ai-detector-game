@@ -816,6 +816,7 @@ async function createSession(options) {
 async function handleRequest(req, res) {
   const parsed = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
   const urlPath = parsed.pathname;
+  const apiPath = urlPath.startsWith('/api') ? urlPath : `/api${urlPath}`;
 
   if (req.method === 'GET' && (urlPath === '/' || urlPath === '/index.html')) {
     const html = await fs.readFile(path.join(ROOT, 'index.html'), 'utf8');
@@ -823,12 +824,12 @@ async function handleRequest(req, res) {
     return;
   }
 
-  if (req.method === 'GET' && urlPath === '/api/providers/health') {
+  if (req.method === 'GET' && apiPath === '/api/providers/health') {
     sendJson(res, 200, { providers: providerHealthView() });
     return;
   }
 
-  if (req.method === 'POST' && urlPath === '/api/session') {
+  if (req.method === 'POST' && apiPath === '/api/session') {
     try {
       const body = await readJsonBody(req);
       const sessionInfo = await createSession(body || {});
@@ -839,7 +840,7 @@ async function handleRequest(req, res) {
     return;
   }
 
-  if (req.method === 'POST' && urlPath === '/api/content/report') {
+  if (req.method === 'POST' && apiPath === '/api/content/report') {
     try {
       const body = await readJsonBody(req);
       const report = {
@@ -858,7 +859,7 @@ async function handleRequest(req, res) {
     return;
   }
 
-  const parts = parseRoute(urlPath);
+  const parts = parseRoute(apiPath);
   // /api/session/:id/round/:n and /api/session/:id/round/:n/answer
   const isRoundRoute = parts.length === 5 && parts[0] === 'api' && parts[1] === 'session' && parts[3] === 'round';
   const isRoundAnswerRoute = parts.length === 6 && parts[0] === 'api' && parts[1] === 'session' && parts[3] === 'round' && parts[5] === 'answer';
