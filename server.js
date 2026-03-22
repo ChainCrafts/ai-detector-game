@@ -70,6 +70,7 @@ const HUMAN_SOURCE_ALLOWLIST = new Set([
 ]);
 
 let seedStatements = [];
+let seedLoaded = false;
 
 function uid(prefix) {
   return `${prefix}_${crypto.randomBytes(6).toString('hex')}`;
@@ -446,6 +447,18 @@ function providerHealthView() {
 }
 
 async function readJsonBody(req) {
+  if (typeof req.body !== 'undefined') {
+    if (req.body === null || req.body === '') return {};
+    if (typeof req.body === 'object') return req.body;
+    if (typeof req.body === 'string') {
+      try {
+        return JSON.parse(req.body);
+      } catch (error) {
+        throw new Error('Invalid JSON body.');
+      }
+    }
+  }
+
   const chunks = [];
   for await (const chunk of req) {
     chunks.push(chunk);
@@ -939,10 +952,16 @@ async function loadSeed() {
   if (seedStatements.length < 20) {
     throw new Error('Seed statements are insufficient after validation.');
   }
+  seedLoaded = true;
+}
+
+async function ensureSeedLoaded() {
+  if (seedLoaded) return;
+  await loadSeed();
 }
 
 async function main() {
-  await loadSeed();
+  await ensureSeedLoaded();
 
   const server = http.createServer((req, res) => {
     handleRequest(req, res).catch((error) => {
@@ -963,7 +982,9 @@ if (require.main === module) {
 }
 
 module.exports = {
+  ensureSeedLoaded,
   loadSeed,
+  handleRequest,
   createSession,
   sessionRoundPayload,
   buildReveal,

@@ -21,6 +21,43 @@ npm start
 ```
 Then open [http://localhost:3000](http://localhost:3000).
 
+## Deploy to Vercel
+This project is configured for Vercel with:
+- static frontend from `index.html`
+- serverless backend API via `api/[...route].js` using the same handlers in `server.js`
+
+### One-time setup
+```bash
+npm i -g vercel
+cd /home/asus/game-for-ai-course-project
+vercel login
+vercel link
+```
+
+### Configure environment variables on Vercel
+```bash
+# OpenRouter (recommended single key path)
+vercel env add OPENROUTER_API_KEY production
+vercel env add OPENROUTER_API_KEY preview
+vercel env add OPENROUTER_OPENAI_MODEL production
+vercel env add OPENROUTER_ANTHROPIC_MODEL production
+vercel env add OPENROUTER_GOOGLE_MODEL production
+
+# Optional direct provider keys instead of OpenRouter
+vercel env add OPENAI_API_KEY production
+vercel env add ANTHROPIC_API_KEY production
+vercel env add GOOGLE_API_KEY production
+```
+
+### Deploy
+```bash
+# Preview deployment
+npm run vercel:deploy
+
+# Production deployment
+npm run vercel:deploy:prod
+```
+
 ## Optional Live Providers
 Set one or more API keys to generate live AI statements:
 
