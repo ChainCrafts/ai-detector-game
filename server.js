@@ -499,6 +499,84 @@ function cleanupOldSessions() {
   }
 }
 
+function httpError(statusCode, message) {
+  const err = new Error(message);
+  err.statusCode = statusCode;
+  return err;
+}
+
+function parseRoundIndex(value) {
+  const parsed = Number(value);
+  if (!Number.isInteger(parsed)) return null;
+  return parsed;
+}
+
+function getSessionOrThrow(sessionId) {
+  const session = sessions.get(sessionId);
+  if (!session) {
+    throw httpError(404, 'Session not found.');
+  }
+  return session;
+}
+
+function getRoundOrThrow(session, roundIndex) {
+  if (!Number.isInteger(roundIndex) || roundIndex < 0 || roundIndex >= session.totalRounds) {
+    throw httpError(400, 'Invalid round index.');
+  }
+  const round = session.rounds[roundIndex];
+  if (!round) {
+    throw httpError(400, 'Invalid round index.');
+  }
+  return round;
+}
+
+function answerRoundOrThrow(session, roundIndex, body) {
+  const round = getRoundOrThrow(session, roundIndex);
+  if (round.answered) {
+    throw httpError(409, 'Round already answered.');
+  }
+
+  let isCorrect = false;
+  let expected = null;
+
+  if (round.mode === 'single') {
+    const shown = session.statementMap.get(round.shown_id);
+    const guess = body && (body.guess === 'ai' || body.guess === 'human') ? body.guess : null;
+    if (!guess) {
+      throw httpError(400, 'Single mode answer must include guess: ai|human.');
+    }
+    expected = shown.label;
+    isCorrect = guess === expected;
+    round.player_answer = guess;
+  } else {
+    const aiSide = body && (body.ai_side === 'left' || body.ai_side === 'right') ? body.ai_side : null;
+    if (!aiSide) {
+      throw httpError(400, 'Duel mode answer must include ai_side: left|right.');
+    }
+    expected = round.ai_side;
+    isCorrect = aiSide === expected;
+    round.player_answer = aiSide;
+  }
+
+  round.answered = true;
+  round.answered_correctly = isCorrect;
+  if (isCorrect) {
+    session.score += 1;
+  }
+
+  const reveal = buildReveal(round, session.statementMap);
+  return {
+    ok: true,
+    language_code: session.languageCode,
+    is_correct: isCorrect,
+    expected,
+    score: session.score,
+    round_number: roundIndex + 1,
+    total_rounds: session.totalRounds,
+    reveal
+  };
+}
+
 function parseJsonArrayFromText(text) {
   if (!text) return [];
   const trimmed = text.trim();
@@ -859,6 +937,34 @@ async function handleRequest(req, res) {
     return;
   }
 
+  if (req.method === 'GET' && apiPath === '/api/round') {
+    try {
+      const sessionId = String(parsed.searchParams.get('session_id') || '');
+      const roundIndex = parseRoundIndex(parsed.searchParams.get('round_index'));
+      const session = getSessionOrThrow(sessionId);
+      getRoundOrThrow(session, roundIndex);
+      const payload = sessionRoundPayload(session, roundIndex);
+      sendJson(res, 200, payload);
+    } catch (error) {
+      sendJson(res, error.statusCode || 400, { error: error.message || 'Failed to load round.' });
+    }
+    return;
+  }
+
+  if (req.method === 'POST' && apiPath === '/api/answer') {
+    try {
+      const body = await readJsonBody(req);
+      const sessionId = String(body.session_id || '');
+      const roundIndex = parseRoundIndex(body.round_index);
+      const session = getSessionOrThrow(sessionId);
+      const payload = answerRoundOrThrow(session, roundIndex, body);
+      sendJson(res, 200, payload);
+    } catch (error) {
+      sendJson(res, error.statusCode || 400, { error: error.message || 'Failed to submit answer.' });
+    }
+    return;
+  }
+
   const parts = parseRoute(apiPath);
   // /api/session/:id/round/:n and /api/session/:id/round/:n/answer
   const isRoundRoute = parts.length === 5 && parts[0] === 'api' && parts[1] === 'session' && parts[3] === 'round';
@@ -866,14 +972,12 @@ async function handleRequest(req, res) {
   if (isRoundRoute || isRoundAnswerRoute) {
     const sessionId = parts[2];
     const roundIndex = Number(parts[4]);
-    const session = sessions.get(sessionId);
-
-    if (!session) {
-      sendJson(res, 404, { error: 'Session not found.' });
-      return;
-    }
-    if (!Number.isInteger(roundIndex) || roundIndex < 0 || roundIndex >= session.totalRounds) {
-      sendJson(res, 400, { error: 'Invalid round index.' });
+    let session = null;
+    try {
+      session = getSessionOrThrow(sessionId);
+      getRoundOrThrow(session, roundIndex);
+    } catch (error) {
+      sendJson(res, error.statusCode || 400, { error: error.message || 'Invalid round request.' });
       return;
     }
 
@@ -886,55 +990,10 @@ async function handleRequest(req, res) {
     if (req.method === 'POST' && (isRoundAnswerRoute || isRoundRoute)) {
       try {
         const body = await readJsonBody(req);
-        const round = session.rounds[roundIndex];
-        if (round.answered) {
-          sendJson(res, 409, { error: 'Round already answered.' });
-          return;
-        }
-
-        let isCorrect = false;
-        let expected = null;
-
-        if (round.mode === 'single') {
-          const shown = session.statementMap.get(round.shown_id);
-          const guess = body && (body.guess === 'ai' || body.guess === 'human') ? body.guess : null;
-          if (!guess) {
-            sendJson(res, 400, { error: 'Single mode answer must include guess: ai|human.' });
-            return;
-          }
-          expected = shown.label;
-          isCorrect = guess === expected;
-          round.player_answer = guess;
-        } else {
-          const aiSide = body && (body.ai_side === 'left' || body.ai_side === 'right') ? body.ai_side : null;
-          if (!aiSide) {
-            sendJson(res, 400, { error: 'Duel mode answer must include ai_side: left|right.' });
-            return;
-          }
-          expected = round.ai_side;
-          isCorrect = aiSide === expected;
-          round.player_answer = aiSide;
-        }
-
-        round.answered = true;
-        round.answered_correctly = isCorrect;
-        if (isCorrect) {
-          session.score += 1;
-        }
-
-        const reveal = buildReveal(round, session.statementMap);
-        sendJson(res, 200, {
-          ok: true,
-          language_code: session.languageCode,
-          is_correct: isCorrect,
-          expected,
-          score: session.score,
-          round_number: roundIndex + 1,
-          total_rounds: session.totalRounds,
-          reveal
-        });
+        const payload = answerRoundOrThrow(session, roundIndex, body);
+        sendJson(res, 200, payload);
       } catch (error) {
-        sendJson(res, 400, { error: error.message || 'Failed to submit answer.' });
+        sendJson(res, error.statusCode || 400, { error: error.message || 'Failed to submit answer.' });
       }
       return;
     }
